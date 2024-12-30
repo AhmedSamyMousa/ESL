@@ -1,0 +1,43 @@
+.navbar {
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: 0.1px solid var(--secondary-main);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    transition: 0.3s;
+  }
+  
+  .navbar-container {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:50% ;
+    margin: 0 auto;
+    padding: 15px 20px;
+    transition: .3s;
+}
+  
+  .navbar-logo h1 {
+    color: var(--font-main);   
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+  .navbar.scrolled
+  {
+    padding-top: 20px;
+    border-bottom: none;
+  }
+
+.navbar-container.scrolled {
+background: var(--navbar-main);
+border-radius: 16px;
+box-shadow: 0 4px 30px #0000001a;
+backdrop-filter: blur(15.1px);
+-webkit-backdrop-filter: blur(10.2px);
+border: 1px solid var(--navbar-main);
+}
+  
